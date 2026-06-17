@@ -52,3 +52,8 @@ Cruza el estado de cumplimiento logístico con la cartera de clientes. Permite i
 El desarrollo completo de las vistas analíticas y el script de optimización logística se encuentran disponibles para su ejecución en la sección de archivos:
 
 * 💾 **[Ver Script SQL Completo](./script_analisis_logistica.sql)**
+
+---
+## 👤 Autor
+* **Adrián Poet** - *Data Analyst & Business Intelligence Specialist*
+* [LinkedIn](https://www.linkedin.com/in/adrian-poet)
