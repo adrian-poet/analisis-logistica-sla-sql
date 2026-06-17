@@ -7,7 +7,16 @@ El script está diseñado para responder tres preguntas críticas de negocio:
 1. ¿En qué hitos específicos del proceso de distribución se generan los mayores cuellos de botella?
 2. ¿Cuál es el impacto financiero directo (Monto USD implicado) de los pedidos demorados?
 3. ¿Quiénes son nuestros clientes estratégicos (Pareto A) que están experimentando peores niveles de servicio?
+---
+## 📊 Reporte de Negocio e Insights (PDF)
+El pipeline técnico de base de datos está respaldado por un informe gerencial exhaustivo que desglosa las ineficiencias de la planta y evalúa el riesgo contractual del portafolio comercial.
 
+* 📄 **[Ver Reporte Completo: Análisis de Avanzada en Mitigación de Cuellos de botella.pdf](./Análisis%20de%20Avanzada%20en%20Mitigación%20de%20Cuellos%20de%20botella.pdf)**
+
+### 💡 Diagnóstico y Hallazgos Críticos:
+* **El Cuello de Botella Operativo:** El análisis hito a hito detectó que la fase de **Carga y Despacho** es la principal fuente de fricción física, registrando un desvío sistemático promedio de **+1.78 horas** por encima del objetivo. Las fases previas (Preparación y Embalaje) operan en conformidad.
+* **Impacto Financiero de las Demoras:** Si bien el 77.78% de las órdenes se entregan a tiempo, las demoras operativas absorben críticamente el **29.54% del capital de facturación en tránsito** (\$1.008.100,00), elevando el riesgo de penalizaciones comerciales.
+* **Alerta Roja Comercial (Pareto ABC):** Solo tres clientes concentran el **77.88% de los ingresos** totales (Categoría A). Dentro de este grupo, **Logística Pampeana (CLI-12)** —que representa el 24.61% del negocio— sufrió una severa demora de 20 horas en su ciclo, activando una alerta prioritaria de retención.
 ---
 
 ## 🛠️ Tecnologías y Conceptos Avanzados Aplicados
@@ -38,3 +47,8 @@ Cruza el estado de cumplimiento logístico con la cartera de clientes. Permite i
 ### 5. Diagnóstico de Desvíos por Hito y Pareto ABC de Clientes
 - **Performance de Etapas:** Ejecuta agregaciones para calcular el desvío promedio en horas por hito, detectando las fases del proceso de distribución con mayor tasa y porcentaje de demoras.
 - **Segmentación Pareto ABC:** Clasifica a los clientes según sus ingresos acumulados utilizando ventanas ordenadas. Esto permite aislar al **Grupo A** (clientes críticos que aportan el 80% del valor del negocio) para cruzarlo con sus tasas de SLA y evitar penalizaciones o fugas de cuentas principales (`Churn`).
+
+## 💻 Código Fuente
+El desarrollo completo de las vistas analíticas y el script de optimización logística se encuentran disponibles para su ejecución en la sección de archivos:
+
+* 💾 **[Ver Script SQL Completo](./script_analisis_logistica.sql)**
