@@ -1,6 +1,6 @@
 # Análisis SLA Logística - Mitigación de Cuellos de Botella.
 
-**Problema de negocio detectado** 
+**Problema de negocio detectado**  
 Al analizar la base de logistica encontre que el **22.22%** de los pedidos llegaban demorados, comprometiendo el **29.54 %** del monto.
 Mediante queries SQL identifique que el hito **"Carga y Despacho"** generaba **+ 1.78** hs de retraso vs objetivo.  
 
