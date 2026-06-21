@@ -6,7 +6,7 @@ Mediante queries SQL identifique que el hito **"Carga y Despacho"** generaba **+
 
 **Hallazgos del analisis** 
 **78 %** de los pedidos llegan a tiempo vs **22 %** demorados. 
-Cuello de botella principal: hito **"Carga y Despacho</span"**.
+Cuello de botella principal: hito **"Carga y Despacho"**.
 Cliente **Pareto A** con **24.61 %** de ingresos presenta demoras severas. 
 **70.46 %** del monto protegido por entregas a tiempo.
 
