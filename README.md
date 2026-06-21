@@ -2,7 +2,7 @@
 
 **Problema de negocio detectado** 
 Al analizar la base de logistica en contre que <span style="color:red">22.22%</span> de los pedidos llegaban demorados, comprometiendo el <span style="color:red">29.54 %</span> del monto.
-Mediante queries SQL identifique que el hito "<span style="color:deepskyblue">Carga y Despacho</span>" generaba <span style="color:red">+ 1.78</span> hs de retraso vs objetivo. 
+Mediante queries SQL identifique que el hito "<span style="color:deepskyblue">Carga y Despacho</span>" generaba <span style="color:red">+ 1.78</span> hs de retraso vs objetivo.  
 
 **Hallazgos del analisis** 
 78 % de los pedidos llegan a tiempo vs <span style="color:red">22 %</span> demorados. 
