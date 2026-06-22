@@ -12,7 +12,7 @@ Cliente **Pareto A** con **24.61 %** de ingresos presenta demoras severas.
 
 ---
 
-### 🛠️ Herramientas y Técnicas Utilizadas
+### 🛠️ Herramientas y Técnicas Utilizadas 
 * **SQL Avanzado:** Optimización de consultas para calcular desviaciones de tiempo entre hitos logísticos vs. targets operativos.
 * **Análisis de Pareto (80/20):** Segmentación de clientes e impacto financiero para priorizar la toma de decisiones basada en el valor en riesgo.
 
