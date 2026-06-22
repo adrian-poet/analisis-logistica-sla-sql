@@ -5,10 +5,10 @@ Al analizar la base de logistica encontre que el **22.22%** de los pedidos llega
 Mediante queries SQL identifique que el hito **"Carga y Despacho"** generaba **+ 1.78** hs de retraso vs objetivo.  
 
 ## Hallazgos del analisis 
-**78 %** de los pedidos llegan a tiempo vs **22 %** demorados. 
-Cuello de botella principal: hito **"Carga y Despacho"**.
-Cliente **Pareto A** con **24.61 %** de ingresos presenta demoras severas. 
-**70.46 %** del monto protegido por entregas a tiempo.
+- **78 %** de los pedidos llegan a tiempo vs **22 %** demorados. 
+- Cuello de botella principal: hito **"Carga y Despacho"**.
+- Cliente **Pareto A** con **24.61 %** de ingresos presenta demoras severas. 
+- **70.46 %** del monto protegido por entregas a tiempo.
 
 ---
 
